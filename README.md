@@ -1,55 +1,67 @@
 # Hyperskill_SimpleChatty_Bot-Java
 
 ## Project Overview
-This repository contains a Java-based simple chat bot project, which has been developed as part of the Hyperskill learning platform. The main purpose of this project is to provide a platform for users to practice and enhance their programming skills through interactive coding exercises. This bot is simple, yet powerful, and can be customized and extended as per the user's requirements.
+The Hyperskill Simple Chatty Bot is a Java-based project designed to help users practice and enhance their Java programming skills. This project is part of the interactive learning activities provided by the Hyperskill platform. The bot engages users with simple conversations and coding exercises, making the learning process both fun and educational.
 
-## Setup and Installation Instructions
-To run this project, you need to have Java Development Kit (JDK) installed on your local machine. 
+### Project Structure
+The project is structured as follows:
+- `src/`: Contains the source files for the project.
+  - `Main.java`: The main class that runs the bot.
+  - `Bot.java`: Contains the bot's logic and methods for interaction.
+- `lib/`: Contains any libraries required by the project (if any).
+- `test/`: Contains test cases to validate the bot's functionality.
 
-1. Clone the repository: 
+## Setup and Installation
 
-```bash
-git clone https://github.com/your_username/Hyperskill_SimpleChatty_Bot-Java.git
-```
+### Prerequisites
+- Java JDK 11 or newer
+- A Java IDE (such as IntelliJ IDEA, Eclipse, or VSCode with Java extension)
 
-2. Navigate to the project directory:
+### Installation Instructions
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/yourusername/Hyperskill_SimpleChatty_Bot-Java.git
+   cd Hyperskill_SimpleChatty_Bot-Java
+   ```
 
-```bash
-cd Hyperskill_SimpleChatty_Bot-Java
-```
+2. **Open the project in your Java IDE**
+   - Load the project into your IDE and let it resolve dependencies automatically if needed.
 
-3. Compile the Java files:
+3. **Build the Project**
+   - Most IDEs support building the project through a simple interface, typically found under the "Build" menu.
 
-```bash
-javac *.java
-```
-
-4. Run the main file:
-
-```bash
-java Main
-```
+4. **Run the project**
+   - Run `Main.java` to start the bot.
 
 ## Usage Examples
-Once the bot is up and running, you can interact with it through the terminal. The bot can respond to simple commands and can be used to learn and practice Java programming concepts.
+To interact with the bot, run the `Main.java` file. The bot will introduce itself and prompt you to engage in a conversation. Here are some examples of how you can interact with the bot:
 
-```bash
-> Hello Bot
-> Hello! My name is Aid.
-> What's the weather like?
-> I'm a bot, I don't know real-time weather conditions.
+```
+Hello! My name is Aid.
+I was created in 2023.
+Please, remind me your name.
+> John
+What a great name you have, John!
+Let me guess your age.
+Enter remainders of dividing your age by 3, 5 and 7.
+> 1
+> 2
+> 1
+Your age is 22; that's a good time to start programming!
 ```
 
+Feel free to experiment with different inputs to see how the bot responds.
+
 ## Contribution Guidelines
-Contributions to this project are always welcome. To contribute:
+Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-1. Fork the project
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a pull request
-
-Before submitting a pull request, please ensure that your code compiles and the functionality works as expected.
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
 ## License
-This project is licensed under the MIT License. See the `LICENSE` file for more details.
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+
+Feel free to use and modify the code as you see fit for your personal or educational purposes. Enjoy building and learning with the Hyperskill Simple Chatty Bot!
